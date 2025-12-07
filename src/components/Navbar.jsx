@@ -110,7 +110,14 @@ export default function Navbar() {
                 className="min-h-screen flex justify-center items-center px-6 lg:px-20 text-center"
             >
                 <div className="animate-fadeIn px-4 sm:px-6 lg:px-20 text-center">
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-snug text-white drop-shadow-[0_4px_10px_rgba(0,0,0,0.6)] max-w-4xl mx-auto">
+                    <h1 className="
+                        text-2xl sm:text-4xl md:text-5xl lg:text-6xl 
+                        xl:text-6xl 2xl:text-7xl
+                        font-extrabold leading-snug text-white 
+                        drop-shadow-[0_4px_10px_rgba(0,0,0,0.6)]
+                        max-w-3xl xl:max-w-4xl mx-auto
+">
+
                         <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-400 via-pink-500 to-fuchsia-500 animate-gradient-x">
                             Girls Hub
                         </span>{" "}
